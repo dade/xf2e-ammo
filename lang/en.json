@@ -1,0 +1,9 @@
+{
+	"xf2e-ammo": {
+		"AmmoType": {
+			"shell": "Shell",
+			"shell-gunblade": "Shell (Gunblade)"
+		},
+		"TraitMeleeAmmo": "Melee Ammo"
+	}
+}

@@ -1,0 +1,68 @@
+{
+  "id": "xf2e-ammo",
+  "title": "PF2e & SF2e - Ammo",
+  "description": "Ammo rework and handling for PF2e and SF2e",
+  "authors": [
+    {
+      "name": "Dale Emasiri",
+      "discord": "badgr_",
+      "url": "https://demasiri.com",
+      "flags": {}
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verifies": "13.351"
+  },
+  "esmodules": ["scripts/xf2e-ammo.mjs"],
+  "styles": ["styles/main.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "system": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.3.0",
+          "verified": "7.9.1"
+        }
+      },
+			{
+				"id": "sf2e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "0.0.4"
+				}
+			}
+    ],
+		"requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "hotReload": true,
+    "xf2e-ammo": {
+      "pf2e-homebrew": {
+        "weaponTraits": {
+          "melee-ammo": "Melee Ammo"
+        },
+        "weaponGroups": {
+          "gunblade": "Gunblade"
+        },
+        "baseWeapons": {
+          "gunblade": "Gunblade"
+        }
+      }
+    }
+  }
+}
