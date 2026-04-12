@@ -2,7 +2,8 @@
 	"xf2e-ammo": {
 		"AmmoType": {
 			"shell": "Shell",
-			"shell-gunblade": "Shell (Gunblade)"
+			"shell-gunblade": "Shell (Gunblade)",
+			"shell-loaded-gauntlets": "Shell (Loaded Gauntlets)"
 		},
 		"TraitMeleeAmmo": "Melee Ammo"
 	}
