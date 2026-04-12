@@ -2,6 +2,8 @@
   "id": "xf2e-ammo",
   "title": "PF2e & SF2e - Melee Ammo",
   "description": "<p>Simple ammo rework to apply to melee weapons for SF/PF2e.</p>",
+	"manifest": "https://github.com/dade/xf2e-ammo/releases/latest/download/module.json",
+	"download": "https://github.com/dade/xf2e-ammo/archive/0.1.0",
   "authors": [
     {
       "name": "Dale Emasiri",
